@@ -10,6 +10,6 @@ public class HomeController {
 
   @GetMapping("/home")
   public String home() {
-    return "welcome to java17 docker environment";
+    return "<h2>welcome to java17 docker environment with compose file</h2>";
   }
 }
